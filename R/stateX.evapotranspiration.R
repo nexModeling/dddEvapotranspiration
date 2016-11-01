@@ -11,7 +11,7 @@
 #' \dontrun{
 #' stateX()
 #' }
-stateX <-function(htemp,sca){
+stateX.evapotranspiration <-function(htemp,sca){
 
   snowfree <- 1- sum(sca)/length(sca)
 
